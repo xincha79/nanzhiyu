@@ -11,5 +11,32 @@
 python your_script.py old_str new_str filename
 '''
 import sys
+print(sys.argv)
+
+
+# old_str = sys.argv[1]
+# new_str = sys.argv[2]
+# filename = sys.argv[3]
+#
+# #读取内存
+# f = open(filename,"r+")
+# data = f.read()
+#
+#
+# #统计替换字符
+# old_str_count = data.count(old_str)
+# new_data = data.replace(old_str,new_str)
+#
+# #删除旧文件
+# f.seek(0)
+# f.truncate()
+#
+# #写入新文件
+# f.write(new_data)
+#
+# print(f"原表达式为{old_str},替换为{new_str},次数是{old_str_count}")
+
+
+
 
 
